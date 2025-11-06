@@ -1,12 +1,13 @@
 # Synchronization Quest - Application 4 
 
-## Real Time Systems - Summer 2025
+## Real Time Systems - Fall 2025
 **Instructor:** Dr. Mike Borowczak
 
 ## Author
 **Name:** Lakshmi Katravulapalli
 **Theme:** Hardware Security
 
+System Description: The security system will read an “EM Signature” sensor and send an alert if thresholds are crossed, and the push button will trigger an intrusion alert response. 
 ---
 
 ## Project Overview
@@ -160,33 +161,6 @@ if (xSemaphoreTake(print_mutex, portMAX_DELAY)) {
 
 ---
 
-### 7. [Bonus] Induced Failure - Starvation or Loss of Responsiveness
-Can you create a situation where the system starves one or more tasks? (E.g., block the heartbeat for more than 3 seconds, or drop button events.) What caused it? Leave your code commented in the project with an explanation.
-
-**Answer:**  
-[Your response here]
-
----
-
-## Presentation Slides
-
-Link to your 4-slide summary here (google slides, onedrive powerpoint):
-
-1. Introduction and Theme
-2. Most Important Technical Lesson
-3. Favorite Part of the Project
-4. Something That Challenged You or You'd Explore More
-
-(Bonus, Optional) If you included a voiceover, describe how to access it or link to a video.
-### Access: I attached the Powerpoint Presentation and Recording to the Assignment Submission on Webcourses.
----
-
-## Summary
-You’re not just coding — you’re building a real-time system. Each semaphore is a signal. Each mutex is a lock guarding safety. Each LED pulse is a message from your system’s heartbeat.**
-Can you keep your events ordered, your resources safe, and your system timely? This is your synchronization quest.
-Good luck.
 
 **Final Wokwi Project Link:** https://wokwi.com/projects/445119424199105537
 
-Download the project Zip.
-Head over to webcourses
